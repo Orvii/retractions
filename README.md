@@ -17,6 +17,7 @@ Science keeps retraction notices; engineering blogs keep silence. This repo is o
 | 2 | [The auth-loader gate is a bug](entries/002-loader-gate-intent.md) | maintainers' resolution of a duplicate report | tests now pin the intent |
 | 3 | [Continue is an active project](entries/003-continue-alive.md) | a 404 on its docs home | atlas row rewritten |
 | 4 | [Docs are the spec](entries/004-docs-as-spec.md) | code and docs disagreeing in both directions | evidence rule added |
+| 5 | [The loop lives on the machine](entries/005-loop-lives-on-the-machine.md) | a month with the laptop off | loops moved to CI |
 
 ## House rules
 
