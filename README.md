@@ -28,3 +28,7 @@ Science keeps retraction notices; engineering blogs keep silence. This repo is o
 ---
 
 Orvii — Open, Research, Vision, Innovation & Ideas. If you find one of our published claims wrong, opening an issue here is a favor; we will either fix the claim or add the entry.
+
+---
+
+Part of the Orvii research set: [bench-notes](https://github.com/Orvii/bench-notes) · [equivalence-notes](https://github.com/Orvii/equivalence-notes) · [harness-atlas](https://github.com/Orvii/harness-atlas).
