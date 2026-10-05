@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="1200" height="300" role="img" aria-label="retractions — a line that rises, breaks, and resumes at a lower honest level">
+  <style>
+    .draw1 { animation: draw 1.6s cubic-bezier(.4,0,.2,1) .3s both; }
+    .draw2 { animation: draw 1.2s cubic-bezier(.4,0,.2,1) 2.2s both; }
+    .break { animation: flash .6s ease-out 1.9s both; }
+    .drop { animation: fall .5s ease-in 2.0s both; }
+    @keyframes draw { from { stroke-dashoffset: 1; } }
+    @keyframes flash { from { opacity: 0; } }
+    @keyframes fall { from { opacity: 0; transform: translateY(-40px); } }
+    @media (prefers-reduced-motion: reduce) { .draw1, .draw2, .break, .drop { animation: none; } }
+  </style>
+
+  <rect width="1200" height="300" fill="#0b0806"/>
+
+  <text x="60" y="80" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="52" font-weight="700" fill="#F8F5F2">retractions</text>
+  <text x="60" y="116" font-family="ui-monospace, Menlo, monospace" font-size="17" letter-spacing="1.5" fill="#FE9106">beliefs we published, evidence that killed them, what we changed</text>
+  <rect x="60" y="130" width="110" height="3" fill="#FE9106"/>
+
+  <!-- belief line rising -->
+  <path class="draw1" pathLength="1" stroke-dasharray="1" stroke-dashoffset="0"
+        d="M80 230 L260 225 L420 190 L560 150 L680 120"
+        fill="none" stroke="#FE9106" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- the break -->
+  <g class="break">
+    <line x1="680" y1="120" x2="712" y2="168" stroke="#F05F03" stroke-width="2.6" stroke-dasharray="5 5"/>
+    <text x="700" y="105" font-family="ui-monospace, Menlo, monospace" font-size="13" fill="#F05F03">evidence</text>
+  </g>
+  <!-- honest resumption, lower -->
+  <path class="drop" d="M712 208 L860 205 L1000 195 L1120 190"
+        fill="none" stroke="#FEAF12" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+  <g class="break">
+    <circle cx="712" cy="208" r="5" fill="#FEAF12"/>
+    <text x="730" y="238" font-family="ui-monospace, Menlo, monospace" font-size="13" fill="#b7a496">the corrected claim, dated</text>
+  </g>
+
+  <text x="60" y="280" font-family="ui-monospace, Menlo, monospace" font-size="13" fill="#6e5c50">no entry is ever deleted · a retraction of a retraction gets its own number</text>
+</svg>
