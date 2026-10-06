@@ -20,6 +20,7 @@ Science keeps retraction notices; engineering blogs keep silence. This repo is o
 | 5 | [The loop lives on the machine](entries/005-loop-lives-on-the-machine.md) | a month with the laptop off | loops moved to CI |
 | 6 | [Pages paths are repo-relative](entries/006-pages-paths-are-repo-relative.md) | the served site root is the source dir, not the repo | gallery moved to repo root |
 | 7 | [The light banner](entries/007-the-light-banner.md) | the brand owner, in one sentence | backgrounded lockup restored |
+| 8 | [Open PRs are a community](entries/008-open-prs-are-not-a-community.md) | the user, with a merge date | due-diligence rule made permanent |
 
 ## House rules
 

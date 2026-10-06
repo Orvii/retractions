@@ -1,5 +1,10 @@
 # Changelog
 
+## [2026-10-06] - entry 008: open PRs are not a community
+
+### Added
+- `entries/008-open-prs-are-not-a-community.md` — the Ischca awesome-list PR: eight open PRs read as an active community; the last merged PR was a year old. Due diligence (pushed_at + last merge + open-PR age) is now permanent house policy.
+
 ## [2026-10-05] - Initial release: seven entries
 
 ### Added
