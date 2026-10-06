@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "If you cite this research set, please use this metadata."
+type: dataset
+title: "retractions — a public ledger of published claims this research set withdrew"
+authors:
+  - name: "Orvii"
+    alias: "Orvii collective"
+identifiers:
+  - type: url
+    value: "https://github.com/Orvii/retractions"
+repository-code: "https://github.com/Orvii/retractions"
+version: "1.1.0"
+date-released: "2026-10-06"
+notes: "Entries record what was published, what changed, and what the retraction teaches."

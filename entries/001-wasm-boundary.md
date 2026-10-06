@@ -16,6 +16,6 @@ Our first recorded benchmark snapshot (Ryzen 5 5600, Bun 1.4.3, `BENCH_PROFILE=l
 
 ## What changed
 
-- The snapshot published the losing row in the same table, same font ([bunaptic README, Recorded snapshots](https://github.com/nixaut-codelabs/bunaptic)).
+- The snapshot published the losing row in the same table, same font — the recorded-snapshots section of the project's own README, which lists every arm including the one that lost.
 - The engineering direction moved from "write more kernels" to "batch across the boundary".
 - [bench-notes/ffi-boundary-crossover](https://github.com/Orvii/bench-notes) now states the general rule: measure the crossover size, or don't claim a winner.
